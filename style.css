@@ -1,0 +1,107 @@
+body{
+    border: 0;
+    margin: 0;
+    background-color: rgb(188, 229, 245);
+}
+.container{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.content{
+    font-family: monospace;
+    margin-left: 10%;
+    margin-right: 10%; 
+    padding-left: 5%;
+    padding-right: 5%; 
+    padding-bottom: 5%;
+    background-color: white;
+    box-shadow: 7px 0 15px -4px rgba(31, 73, 125, 0.8), -7px 0 15px -4px rgba(31, 73, 125, 0.8);
+    border-radius: 15px;
+    line-height: 25px;
+}
+.content img{
+    width: 100%;
+}
+.content h1{
+    padding-top: 20px;
+    text-align: center;
+}
+.flex-content{
+    font-family: sans-serif;
+    display: flex;
+} 
+.paragraph1{
+    padding-right: 50px;
+}
+.paragraph1 h2{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+.paragraph2 h2{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+/* Style the navigation bar */
+.navbar {
+    font-weight: bolder;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  /* Add responsiveness for msall size screens*/
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+        .flex-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .paragraph1{
+        padding: 10px;
+        font-family: sans-serif;
+        text-align: justify;
+    }
+    .paragraph2{
+        padding-left: 20px;
+        text-align: justify;
+        font-family: sans-serif;
+   }
+}
+  #social-links{
+      float: right;
+  }
+  footer{
+      background-color: khaki;
+      text-align: center;
+      padding: 2px;
+      font-family: monospace;
+      font-weight: bolder;
+      font-size: large;
+  }
